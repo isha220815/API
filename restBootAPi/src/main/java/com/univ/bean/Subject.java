@@ -1,14 +1,7 @@
 package com.univ.bean;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
-@Entity
-@Table(name="Subject")
 public class Subject {
 
-	@Id
 	private String id;
 	private String name;
 	public Subject() {
